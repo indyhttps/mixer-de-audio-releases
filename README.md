@@ -2,7 +2,9 @@
 
 [**BAIXAR O INSTALADOR**](https://github.com/indyhttps/mixer-de-audio-releases/releases/latest/download/instalador-mixer-asio.zip)
 
-Mixer de voz com ajustes de altura, timbre, gate de ruído e presets. O processamento inicia automaticamente depois que a Focusrite e a entrada física estão configuradas. A versão 1.3.21 inclui calibração do gate e diagnóstico ASIO local.
+Mixer de voz com ajustes de altura, timbre, gate de ruído e presets. O processamento inicia automaticamente depois que a Focusrite e a entrada física estão configuradas. A versão 1.4.0 inclui calibração por entrada, recuperação de presets, formantes independentes e diagnóstico ASIO local.
+
+O download público atual é a [versão 1.4.0 publicada em 20/09/2026](https://github.com/indyhttps/mixer-de-audio-releases/releases/tag/v1.4.0), do commit `a390cba416c9e9bbaede2923b279d6bde6e94994`. O visual Liquid Glass aprovado e as melhorias de monitoramento de outubro estão em validação no projeto de origem e ainda não fazem parte desse ZIP. Quem recebeu um pacote local de outubro deve conservar esse pacote completo para reparo.
 
 ## Instalar e usar
 
@@ -41,7 +43,7 @@ O limiar do **Gate de ruído** controla quanto ruído é silenciado entre as fra
 
 - **Windows 11 em Intel/AMD x64 ou ARM64.** O .NET e o Windows App SDK necessários estão incluídos no pacote. A instalação e a janela podem abrir sem uma interface de áudio conectada; o processamento depende da preparação descrita acima.
 - Em ARM64, o app usa a emulação x64 do Windows 11 e precisa do driver Focusrite oficial compatível com ARM. A arquitetura dos binários foi conferida, mas **o áudio do Mixer ainda não foi testado em hardware ARM64**. [Compatibilidade ARM da Focusrite](https://support.focusrite.com/hc/en-gb/articles/21643588192146-Focusrite-compatibility-with-Windows-on-Arm).
-- Os executáveis próprios da versão **1.3.21 não têm assinatura Authenticode**. Smart App Control e outras políticas de execução podem bloquear o aplicativo. A assinatura RSA do ZIP não substitui a assinatura dos executáveis nem garante sua aceitação pelo Windows. O pacote não instala certificados nem altera as proteções do sistema. [Requisitos de assinatura da Microsoft](https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/code-signing-for-smart-app-control).
+- Os executáveis próprios da versão **1.4.0 não têm assinatura Authenticode**. Smart App Control e outras políticas de execução podem bloquear o aplicativo. A assinatura RSA do ZIP não substitui a assinatura dos executáveis nem garante sua aceitação pelo Windows. O pacote não instala certificados nem altera as proteções do sistema. [Requisitos de assinatura da Microsoft](https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/code-signing-for-smart-app-control).
 
 ## Atualizar ou reparar
 
